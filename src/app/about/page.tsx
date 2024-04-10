@@ -49,7 +49,7 @@ export default function LampDemo() {
           </div>
           <div className="p-4">
             <h3 className="text-xl ml font-bold">Ramón Aguilera</h3>
-            <p className="text-gray-500">CEO</p>
+            <p className="text-gray-500">CEO/Developer</p>
           </div>
         </motion.div>
         <motion.div
@@ -64,7 +64,7 @@ export default function LampDemo() {
           </div>
           <div className="p-4">
             <h3 className="text-xl font-bold">Miguel Millán</h3>
-            <p className="text-gray-500">CTO</p>
+            <p className="text-gray-500">CTO/Developer</p>
           </div>
         </motion.div>
         <motion.div
