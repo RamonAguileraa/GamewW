@@ -189,7 +189,7 @@ export function ThreeDCardDemo() {
     <div className="relative">
  
 
-  <div className="border-gray-950 bg-black bg-cover bg-[url('/decor.png')] relative z-10">
+  <div id="infoww" className="border-gray-950 bg-black bg-cover bg-[url('/decor.png')] relative z-10">
     <main className="flex min-h-screen p-24">
       <div className="flex flex-col items-center justify-center w-1/2 space-y-8">
         <div className="ml-10 font-Anta text-center text-white">

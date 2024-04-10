@@ -36,7 +36,7 @@ export default function LampDemo() {
         </div>
       </div>
       <h1 className="text-4xl mt-16 text-white font-bold">Nuestro equipo</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 px-9 gap-8 mt-8">
         <motion.div
           className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col"
           variants={cardVariants}
@@ -45,10 +45,10 @@ export default function LampDemo() {
           viewport={{ once: true }}
         >
           <div className="relative h-64 md:h-80">
-            <img src="/john-doe.jpg" alt="John Doe" className="w-full h-full object-cover" />
+            <img src="/perro3.jpg" alt="John Doe" className="w-full h-full object-cover" />
           </div>
           <div className="p-4">
-            <h3 className="text-xl font-bold">John Doe</h3>
+            <h3 className="text-xl ml font-bold">Ramón Aguilera</h3>
             <p className="text-gray-500">CEO</p>
           </div>
         </motion.div>
@@ -60,10 +60,10 @@ export default function LampDemo() {
           viewport={{ once: true }}
         >
           <div className="relative h-64 md:h-80">
-            <img src="/jane-smith.jpg" alt="Jane Smith" className="w-full h-full object-cover" />
+            <img src="/mik.jpg" alt="Jane Smith" className="w-full h-full object-cover" />
           </div>
           <div className="p-4">
-            <h3 className="text-xl font-bold">Jane Smith</h3>
+            <h3 className="text-xl font-bold">Miguel Millán</h3>
             <p className="text-gray-500">CTO</p>
           </div>
         </motion.div>
@@ -75,11 +75,11 @@ export default function LampDemo() {
           viewport={{ once: true }}
         >
           <div className="relative h-64 md:h-80">
-            <img src="/bob-johnson.jpg" alt="Bob Johnson" className="w-full h-full object-cover" />
+            <img src="/yanyan.jpeg" alt="Bob Johnson" className="w-full h-full object-cover" />
           </div>
           <div className="p-4">
-            <h3 className="text-xl font-bold">Bob Johnson</h3>
-            <p className="text-gray-500">Lead Developer</p>
+            <h3 className="text-xl font-bold">Jean Lozano</h3>
+            <p className="text-gray-500">Designer</p>
           </div>
         </motion.div>
         <motion.div
@@ -90,10 +90,10 @@ export default function LampDemo() {
           viewport={{ once: true }}
         >
           <div className="relative h-64 md:h-80">
-            <img src="/sarah-lee.jpg" alt="Sarah Lee" className="w-full h-full object-cover" />
+            <img src="/fer.jpg" alt="Sarah Lee" className="w-full h-full object-cover" />
           </div>
           <div className="p-4">
-            <h3 className="text-xl font-bold">Sarah Lee</h3>
+            <h3 className="text-xl font-bold">Fernanda Torres</h3>
             <p className="text-gray-500">UI/UX Designer</p>
           </div>
         </motion.div>

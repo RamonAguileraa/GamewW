@@ -6,28 +6,28 @@ const FAQSection = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const faqData = [
     {
-      question: '¿Cómo puedo hacer un pedido?',
-      answer: 'Puedes hacer tu pedido a través de nuestro sitio web o llamando a nuestro número de atención al cliente.'
+      question: '¿Cómo puedo ver el contenido extra?',
+      answer: 'Puedes visitar nuestra tienda en linea en doned podrás ver nuestro contenido en venta.'
     },
     {
       question: '¿Cuál es la política de devoluciones?',
-      answer: 'Aceptamos devoluciones dentro de los 30 días posteriores a la compra. Consulta nuestra política de devoluciones para más detalles.'
+      answer: 'Una vez realizada tu compra no habrá devoluciones.'
     },
     {
       question: '¿Cómo puedo comunicarme con el servicio al cliente?',
-      answer: 'Puedes contactarnos por teléfono, correo electrónico o a través de nuestras redes sociales.'
+      answer: 'Puedes contactarnos por teléfono, correo electrónico o a través de nuestras redes sociales que encontrarás en la sección de contacto.'
     },
     {
       question: '¿Cuáles son los métodos de pago?',
-      answer: 'Aceptamos tarjetas de crédito, débito, PayPal y transferencias bancarias.'
+      answer: 'Aceptamos tarjetas de crédito, débito, y PayPal.'
     },
     {
-      question: '¿Cuál es el tiempo de entrega?',
-      answer: 'El tiempo de entrega puede variar según la ubicación y el método de envío seleccionado. Consulta nuestra información de envío para más detalles.'
+      question: '¿Qué tipo de juego es WonderWagons?',
+      answer: 'Es un juego de estrategía inmersivo en el cual explorarás una misteriosa historia mientras paseas por distintos biomas únicos.'
     },
     {
-      question: '¿Ofrecen garantía?',
-      answer: 'Sí, ofrecemos una garantía de 1 año en todos nuestros productos. Si tienes algún problema, no dudes en comunicarte con nosotros.'
+      question: 'Es necesario tener lentes de realidad virtual?',
+      answer: 'Para una mejor experiencia es necesario el uso de lentes de realidad virtual, pero podrás jugarlo de igual manera en PC.'
     }
   ];
 
@@ -52,7 +52,7 @@ const FAQSection = () => {
               }`}
             >
               <div className="flex flex-col items-start">
-                <h3 className="text-xl font-bold mb-4 text-blue-400">{faq.question}</h3>
+                <h3 className="text-xl font-bold mb-4 text-purple-800">{faq.question}</h3>
                 <p className="mb-4 text-gray-300">{faq.answer}</p>
               </div>
             </div>
@@ -65,23 +65,23 @@ const FAQSection = () => {
   </p>
   <div className="flex justify-between">
     <div className="text-center">
-      <h4 className="text-4xl font-bold text-blue-400">10+</h4>
+      <h4 className="text-4xl font-bold text-purple-800">1+</h4>
       <p className="text-gray-300">Años de Experiencia</p>
     </div>
     <div className="text-center">
-      <h4 className="text-4xl font-bold text-blue-400">5,000+</h4>
+      <h4 className="text-4xl font-bold text-purple-800">5+</h4>
       <p className="text-gray-300">Clientes Satisfechos</p>
     </div>
     <div className="text-center">
-      <h4 className="text-4xl font-bold text-blue-400">99%</h4>
+      <h4 className="text-4xl font-bold text-purple-800">99%</h4>
       <p className="text-gray-300">Tasa de Satisfacción</p>
     </div>
   </div>
 </div>
         <div className="mt-8 text-center">
           <p className="text-lg font-medium text-white">¿Necesitas más ayuda? ¡Contáctanos!</p>
-          <p className="text-lg text-white">Teléfono: 123-456-789</p>
-          <p className="text-lg text-white">Correo electrónico: info@tudominio.com</p>
+          <p className="text-lg text-white">Teléfono: 614-228-3958</p>
+          <p className="text-lg text-white">Correo electrónico: araxyst@gmail.com</p>
         </div>
       </div>
     </section>
