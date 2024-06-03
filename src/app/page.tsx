@@ -1,4 +1,5 @@
-'use client'
+'use client';
+
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { SparklesCore } from './components/ui/sparkless';
@@ -26,12 +27,10 @@ export default function Home() {
           <div className="bg-white p-8 rounded-lg z-50">
             <h2 className="text-2xl font-bold mb-4">Términos y Condiciones</h2>
             <p className="mb-4">
-              Bienvenido a WonderWagons. Al utilizar nuestros servicios, usted acepta las siguientes condiciones. Lea
-              detenidamente.
+              Bienvenido a WonderWagons. Al utilizar nuestros servicios, usted acepta las siguientes condiciones. Lea detenidamente.
             </p>
             <p className="mb-4">
-              Los usuarios son responsables de cualquier actividad que ocurra en su cuenta y deben mantener la
-              confidencialidad de su contraseña.
+              Los usuarios son responsables de cualquier actividad que ocurra en su cuenta y deben mantener la confidencialidad de su contraseña.
             </p>
             <div className="flex justify-between">
               <button onClick={acceptTerms} className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
@@ -96,7 +95,7 @@ export function ThreeDCardDemo() {
               translateZ="60"
               className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-black"
             >
-              Experimenta el estar en diferentes lugares mientras de diviertes
+              Experimenta el estar en diferentes lugares mientras te diviertes
             </CardItem>
             <CardItem translateZ="100" className="w-full mt-4">
               <Image
@@ -115,7 +114,7 @@ export function ThreeDCardDemo() {
                 target="__blank"
                 className="px-4 py-2 rounded-xl text-xs font-normal dark:text-black"
               >
-                See more→
+                See more →
               </CardItem>
               <CardItem
                 translateZ={20}
@@ -131,7 +130,7 @@ export function ThreeDCardDemo() {
         <CardContainer className="inter-var">
           <CardBody className="bg-black-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-neutral-50 dark:bg-white dark:border-zinc-50 border-white w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
             <CardItem translateZ="50" className="text-xl font-bold text-neutral-600 dark:text-black">
-              Pon aprueba tu estrategia
+              Pon a prueba tu estrategia
             </CardItem>
             <CardItem
               as="p"
