@@ -9,12 +9,12 @@ const ContactUs = () => {
     message: '',
   });
 
-  const handleInputChange = (e) => {
+  const handleInputChange = (e: { target: { name: any; value: any; }; }) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: { preventDefault: () => void; }) => {
     e.preventDefault();
     // Aquí puedes agregar la lógica para enviar el formulario
     console.log(formData);

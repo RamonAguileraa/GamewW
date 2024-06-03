@@ -41,7 +41,7 @@ function Shop() {
   );
 }
 
-function ProductCard({ product }) {
+function ProductCard({ product }: { product: any }) {
   return (
     <a href={product.link} className="block">
       <div className="bg-gray-800 rounded-lg overflow-hidden shadow-md transform transition-transform hover:scale-105">
